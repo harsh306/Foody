@@ -12,7 +12,7 @@
 //app.get('/api/contacts', api.contacts);
 //app.get('/api/contacts/:id', api.contact);
 
-angular.module('starter', ['ionic','starter.controllers'])
+angular.module('starter', ['ionic','starter.controllers','starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

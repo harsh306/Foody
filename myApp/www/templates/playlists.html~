@@ -1,4 +1,4 @@
-<ion-view view-title="FoodyCourt">
+<ion-view view-title="Playlists">
   <ion-content>
     <ion-list>
       <ion-item ng-repeat="playlist in playlist.results" href="#/app/playlists/{{playlist.restaurantId}}">

@@ -52,7 +52,7 @@ angular.module('starter.controllers', [])
     });
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams,$http) {
+.controller('PlaylistCtrl', function($scope, $stateParams) {
  $http({
         method : "GET",
         url : "/img/tblRestaurant.json"
