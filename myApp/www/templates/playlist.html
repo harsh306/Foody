@@ -1,6 +1,14 @@
-<ion-view view-title="FoodyCourt">
+<ion-view view-title="FoodyCourt-BaseMenu">
   <ion-content>
-    <h1>Playlist</h1>
+   
+    <ion-list>
+      <ion-item class="item item-avatar" id="baseitem" ng-repeat="playlist in playlist.results[detail].menu" href="#">
+      	<img src="{{playlist.baseimg}}">
+	<h2>{{playlist.basemenu}}</h2>
+      </ion-item>
+    </ion-list>
+   
   </ion-content>
 
 </ion-view>
+

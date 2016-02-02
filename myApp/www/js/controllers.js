@@ -58,7 +58,14 @@ angular.module('starter.controllers', [])
         url : "/img/tblRestaurant.json"
     }).then(function mySucces(response) {
         $scope.playlist = response.data;
+        $scope.rid=$stateParams.restaurantId;
     }, function myError(response) {
         $scope.playlist = response.statusText;
     });
+  $scope.$on('$ionicView.enter', function(e) {
+	var x = document.URL;
+    	x=x.slice(-1);
+    	$scope.detail=x;
+    
+  });  
 });

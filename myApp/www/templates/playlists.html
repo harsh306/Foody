@@ -1,10 +1,13 @@
 <ion-view view-title="FoodyCourt">
   <ion-content>
+   <div class="list">
     <ion-list>
-      <ion-item ng-repeat="playlist in playlist.results" href="#/app/playlists/{{playlist.restaurantId}}">
-	    {{playlist.restaurantName}}       	 
+      <ion-item class="item item-thumbnail-left" ng-repeat="playlist in playlist.results" href="#/app/playlists/{{playlist.restaurantId}}">
+      	<img src="{{playlist.restaurantImage}}">
+	<h2>{{playlist.restaurantName}}</h2>
       </ion-item>
     </ion-list>
+   </div>
 
   </ion-content>
 </ion-view>
