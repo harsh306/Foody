@@ -1,0 +1,13 @@
+<ion-view view-title="FoodyCourt-BaseMenu">
+  <ion-content>
+
+    <ion-list>
+      <ion-item  ng-repeat="row in items[0].menu[0]" href="#">
+        <img src={{row.baseimg}}>
+        <h2>{{row.basemenu}}</h2>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+
+</ion-view>
