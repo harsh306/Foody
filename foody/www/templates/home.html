@@ -2,7 +2,7 @@
   <ion-content>
     <ion-list>
       <ion-item>
-        <a ng-repeat="row in items" class="item item-thumbnail-left" href="#/app/home/{{row.restaurantId}}">
+        <a ng-repeat="row in items" class="item item-thumbnail-left" href="#/app/home/{{row.restaurantId}}" ng-class="menuClass('home')">
           <img class="media-object" src="{{row.restaurantImage}}">
           <h2>{{row.restaurantName}}</h2>
         </a>
