@@ -1,0 +1,2 @@
+/home/harsh/Foody/foody/platforms/android/build/intermediates/classes/debug
+/home/harsh/Foody/foody/platforms/android/build/intermediates/pre-dexed/debug/classes-a63da3c713fc8c519f5bf2930779b64302589340.jar
