@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "appName": "Ballump",
+            "appVersion": "1.0.0",
+            "appIdentifier": "com.codeapper.ballump",
+            "description": "Simple game",
+            "whatsNew": "Minor bug fixes",
+            "downloadUrl": "itms-services://?action=download-manifest&url=https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/manifest.plist",
+            "iconUrl": "https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/Icon-76@2x.png"
+        },
+        {
+            "appName": "OWL",
+            "appVersion": "1.0.0",
+            "appIdentifier": "com.codeapper.ballump",
+            "description": "Simple game",
+            "whatsNew": "Minor bug fixes",
+            "downloadUrl": "itms-services://?action=download-manifest&url=https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/manifest.plist",
+            "iconUrl": "https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/Icon-76@2x.png"
+        },
+        {
+            "appName": "Cricket",
+            "appVersion": "1.0.0",
+            "appIdentifier": "com.codeapper.ballump",
+            "description": "Simple game",
+            "whatsNew": "Minor bug fixes",
+            "downloadUrl": "itms-services://?action=download-manifest&url=https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/manifest.plist",
+            "iconUrl": "https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/Icon-76@2x.png"
+        },
+        {
+            "appName": "Tennis",
+            "appVersion": "1.0.0",
+            "appIdentifier": "com.codeapper.ballump",
+            "description": "Simple game",
+            "whatsNew": "Minor bug fixes",
+            "downloadUrl": "itms-services://?action=download-manifest&url=https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/manifest.plist",
+            "iconUrl": "https://catapult-owl.s3-us-west-2.amazonaws.com/dist/owl/Icon-76@2x.png"
+        }
+    ]
+}

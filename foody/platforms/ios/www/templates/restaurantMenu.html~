@@ -1,0 +1,18 @@
+<ion-view view-title="FoodyCourt-BaseMenu">
+  <ion-content>
+
+    <ion-list>
+      <ion-item ng-repeat="row in items[restaurantId].menu" href="#">
+      <ion-option-button class="button-positive">Add</ion-option-button>
+        <!--<label class="button button-icon icon ion-ios7-minus-outline">
+          <input type="checkbox" ng-click="clickItem(item); $event.stopPropagation();" ng-model="item.checked">
+        </label>-->
+        <img src={{row.baseimg}}>
+        <h2>{{row.basemenu}}</h2>
+      </ion-item>
+    </ion-list>
+
+      <button class="primary-buttons">Add</button>
+</ion-content>
+
+</ion-view>

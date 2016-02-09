@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/harsh/Foody/myApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="72ca9198c85b01d1f877b61e23d3bbdf0984758a">
+        <dex dex="/home/harsh/Foody/myApp/platforms/android/build/intermediates/pre-dexed/debug/classes-47b1c3322dcbdf7c9535466a94698d68db6a973a.jar" />
+    </item>
+
+</items>
